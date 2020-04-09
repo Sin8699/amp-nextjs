@@ -23,6 +23,13 @@ export default () => {
         width="550"
         height="368"
         layout="responsive"
+        src="https://media.giphy.com/media/O5AZJzYhCr1NS/giphy.gif"
+      ></img>
+      <img
+        alt="Mountains"
+        width="550"
+        height="368"
+        layout="responsive"
         src="https://bstyle.vn/wp-content/uploads/2019/11/cach-tao-anh-gif-online-1.gif"
       ></img>
       <img
@@ -46,6 +53,38 @@ export default () => {
         layout="responsive"
         src="https://24hstore.vn/upload_images/images/2019/11/14/anh-gif-3-min.gif"
       ></img>
+
+      <img
+        alt="Mountains"
+        width="550"
+        height="368"
+        layout="responsive"
+        src="https://i.pinimg.com/originals/4f/73/5c/4f735cf5cec0523b0a0edfc27dfb9254.gif"
+      ></img>
+      <img
+        alt="Mountains"
+        width="550"
+        height="368"
+        layout="responsive"
+        src="https://i.pinimg.com/originals/59/a9/bc/59a9bc5a33d47061de5223631e58b8c2.gif"
+      ></img>
+      <img
+        alt="Mountains"
+        width="550"
+        height="368"
+        layout="responsive"
+        src="https://i.pinimg.com/originals/2a/cd/13/2acd1354899654648acfae90ea23fc7a.gif"
+      ></img>
+      <img
+        alt="Mountains"
+        width="550"
+        height="368"
+        layout="responsive"
+        src="https://i.pinimg.com/originals/19/a9/37/19a937a3c5004c0133db46f7a1ef665f.gif"
+      ></img>
+
+
+      
       <p>
         Cat ipsum dolor , eat grass, throw it back up but refuse to leave
         cardboard box or groom yourself 4 hours - checked, have your beauty
