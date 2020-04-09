@@ -3,12 +3,12 @@ import { useAmp } from "next/amp";
 import Layout from "../components/Layout";
 import Byline from "../components/Byline";
 
-export const config = {
-  amp: true,
-};
+// export const config = {
+//   amp: true,
+// };
 
 export default () => {
-  const isAmp = useAmp();
+  // const isAmp = useAmp();
 
   return (
     <Layout>
@@ -18,72 +18,72 @@ export default () => {
       <h1>The Cat (AMP-first Page)</h1>
       <Byline author="Dan Zajdband" />
       <p className="caption">Meowwwwwwww</p>
-      <amp-img
+      <img
         alt="Mountains"
         width="550"
         height="368"
         layout="responsive"
         src="https://bstyle.vn/wp-content/uploads/2019/11/cach-tao-anh-gif-online-1.gif"
       >
-        <amp-img
+        <img
           alt="Mountains"
           fallback=""
           width="550"
           height="368"
           layout="responsive"
           src="https://bstyle.vn/wp-content/uploads/2019/11/cach-tao-anh-gif-online-1.gif"
-        ></amp-img>
-      </amp-img>
-      <amp-img
+        ></img>
+      </img>
+      <img
         alt="Mountains"
         width="550"
         height="368"
         layout="responsive"
         src="https://24hstore.vn/upload_images/images/2019/11/14/anh-gif-2-min.gif"
       >
-        <amp-img
+        <img
           alt="Mountains"
           fallback=""
           width="550"
           height="368"
           layout="responsive"
           src="https://24hstore.vn/upload_images/images/2019/11/14/anh-gif-2-min.gif"
-        ></amp-img>
-      </amp-img>
-      <amp-img
+        ></img>
+      </img>
+      <img
         alt="Mountains"
         width="550"
         height="368"
         layout="responsive"
         src="https://i.pinimg.com/originals/2a/cd/13/2acd1354899654648acfae90ea23fc7a.gif"
       >
-        <amp-img
+        <img
           alt="Mountains"
           fallback=""
           width="550"
           height="368"
           layout="responsive"
           src="https://i.pinimg.com/originals/2a/cd/13/2acd1354899654648acfae90ea23fc7a.gif"
-        ></amp-img>
-      </amp-img>
-      <amp-img
+        ></img>
+      </img>
+      <img
         alt="Mountains"
         width="550"
         height="368"
         layout="responsive"
         src="https://24hstore.vn/upload_images/images/2019/11/14/anh-gif-3-min.gif"
       >
-        <amp-img
+        <img
           alt="Mountains"
           fallback=""
           width="550"
           height="368"
           layout="responsive"
           src="https://24hstore.vn/upload_images/images/2019/11/14/anh-gif-3-min.gif"
-        ></amp-img>
-      </amp-img>
+        ></img>
+      </img>
       <p>
-        Cat ipsum dolor <a href={isAmp ? "/dog?amp=1" : "/dog"}>sit amet</a>,
+        Cat ipsum dolor ,
         eat grass, throw it back up but refuse to leave cardboard box or groom
         yourself 4 hours - checked, have your beauty sleep 18 hours - checked,
         be fabulous for the rest of the day - checked!. Hide from vacuum
