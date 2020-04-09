@@ -30,6 +30,28 @@ export default () => {
         width="550"
         height="368"
         layout="responsive"
+        src="https://media3.giphy.com/media/b2CD0Qrq2ulwY/giphy.gif?cid=ecf05e47c77f922b471d30b6c34d44d42d9eaadba4849611&rid=giphy.gif"
+      ></img>
+      <img
+        alt="Mountains"
+        width="550"
+        height="368"
+        layout="responsive"
+        src="https://media2.giphy.com/media/10JHfJJAUtEBCE/200.webp?cid=ecf05e47ecc56021a61e4e23bf5e3b6eea8c9d4e9a36e655&rid=200.webp"
+      ></img>
+      <img
+        class="giphy-gif-img"
+        src="https://media1.giphy.com/media/2ikwIgNrmPZICNmRyX/giphy.webp?cid=ecf05e47ecc56021a61e4e23bf5e3b6eea8c9d4e9a36e655&amp;rid=giphy.webp"
+        width="248"
+        height="248"
+        alt="pgdue GIF"
+        style="background: rgb(153, 51, 255);"
+      ></img>
+      <img
+        alt="Mountains"
+        width="550"
+        height="368"
+        layout="responsive"
         src="https://bstyle.vn/wp-content/uploads/2019/11/cach-tao-anh-gif-online-1.gif"
       ></img>
       <img
@@ -83,8 +105,6 @@ export default () => {
         src="https://i.pinimg.com/originals/19/a9/37/19a937a3c5004c0133db46f7a1ef665f.gif"
       ></img>
 
-
-      
       <p>
         Cat ipsum dolor , eat grass, throw it back up but refuse to leave
         cardboard box or groom yourself 4 hours - checked, have your beauty
