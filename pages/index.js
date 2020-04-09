@@ -1,19 +1,20 @@
-import Head from 'next/head'
-import { useAmp } from 'next/amp'
-import Layout from '../components/Layout'
-import Byline from '../components/Byline'
+import Head from "next/head";
+import { useAmp } from "next/amp";
+import Layout from "../components/Layout";
+import Byline from "../components/Byline";
 
 export const config = {
   amp: true,
-}
+};
 
 export default () => {
-  const isAmp = useAmp()
+  const isAmp = useAmp();
 
   return (
     <Layout>
       <Head>
         <title>The Cat</title>
+        <script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
       </Head>
       <h1>The Cat (AMP-first Page)</h1>
       <Byline author="Dan Zajdband" />
@@ -34,8 +35,17 @@ export default () => {
           src="https://amp.dev/static/inline-examples/images/mountains.jpg"
         ></amp-img>
       </amp-img>
+      <lottie-player
+        src="https://assets9.lottiefiles.com/packages/lf20_slDslq.json"
+        background="transparent"
+        speed="1"
+        style="width: 300px; height: 300px;"
+        loop
+        controls
+        autoplay
+      ></lottie-player>
       <p>
-        Cat ipsum dolor <a href={isAmp ? '/dog?amp=1' : '/dog'}>sit amet</a>,
+        Cat ipsum dolor <a href={isAmp ? "/dog?amp=1" : "/dog"}>sit amet</a>,
         eat grass, throw it back up but refuse to leave cardboard box or groom
         yourself 4 hours - checked, have your beauty sleep 18 hours - checked,
         be fabulous for the rest of the day - checked!. Hide from vacuum
@@ -233,5 +243,5 @@ export default () => {
         }
       `}</style>
     </Layout>
-  )
-}
+  );
+};
