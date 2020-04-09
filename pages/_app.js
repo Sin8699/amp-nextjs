@@ -32,8 +32,8 @@ function MyApp({ Component, pageProps, pathname }) {
 // perform automatic static optimization, causing every page in your app to
 // be server-side rendered.
 //
-MyApp.getInitialProps = async appContext => {
-  const { ctx } = appContext;
+MyApp.getInitialProps = async (appContext) => {
+  const { ctx, Component } = appContext;
 
   let pageProps = {};
 
