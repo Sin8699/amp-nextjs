@@ -14,7 +14,6 @@ export default () => {
     <Layout>
       <Head>
         <title>The Cat</title>
-        <script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
       </Head>
       <h1>The Cat (AMP-first Page)</h1>
       <Byline author="Dan Zajdband" />
@@ -24,7 +23,7 @@ export default () => {
         width="550"
         height="368"
         layout="responsive"
-        src="https://amp.dev/static/inline-examples/images/mountains.webp"
+        src="https://bstyle.vn/wp-content/uploads/2019/11/cach-tao-anh-gif-online-1.gif"
       >
         <amp-img
           alt="Mountains"
@@ -32,18 +31,57 @@ export default () => {
           width="550"
           height="368"
           layout="responsive"
-          src="https://amp.dev/static/inline-examples/images/mountains.jpg"
+          src="https://bstyle.vn/wp-content/uploads/2019/11/cach-tao-anh-gif-online-1.gif"
         ></amp-img>
       </amp-img>
-      <lottie-player
-        src="https://assets9.lottiefiles.com/packages/lf20_slDslq.json"
-        background="transparent"
-        speed="1"
-        style="width: 300px; height: 300px;"
-        loop
-        controls
-        autoplay
-      ></lottie-player>
+      <amp-img
+        alt="Mountains"
+        width="550"
+        height="368"
+        layout="responsive"
+        src="https://24hstore.vn/upload_images/images/2019/11/14/anh-gif-2-min.gif"
+      >
+        <amp-img
+          alt="Mountains"
+          fallback=""
+          width="550"
+          height="368"
+          layout="responsive"
+          src="https://24hstore.vn/upload_images/images/2019/11/14/anh-gif-2-min.gif"
+        ></amp-img>
+      </amp-img>
+      <amp-img
+        alt="Mountains"
+        width="550"
+        height="368"
+        layout="responsive"
+        src="https://i.pinimg.com/originals/2a/cd/13/2acd1354899654648acfae90ea23fc7a.gif"
+      >
+        <amp-img
+          alt="Mountains"
+          fallback=""
+          width="550"
+          height="368"
+          layout="responsive"
+          src="https://i.pinimg.com/originals/2a/cd/13/2acd1354899654648acfae90ea23fc7a.gif"
+        ></amp-img>
+      </amp-img>
+      <amp-img
+        alt="Mountains"
+        width="550"
+        height="368"
+        layout="responsive"
+        src="https://24hstore.vn/upload_images/images/2019/11/14/anh-gif-3-min.gif"
+      >
+        <amp-img
+          alt="Mountains"
+          fallback=""
+          width="550"
+          height="368"
+          layout="responsive"
+          src="https://24hstore.vn/upload_images/images/2019/11/14/anh-gif-3-min.gif"
+        ></amp-img>
+      </amp-img>
       <p>
         Cat ipsum dolor <a href={isAmp ? "/dog?amp=1" : "/dog"}>sit amet</a>,
         eat grass, throw it back up but refuse to leave cardboard box or groom
