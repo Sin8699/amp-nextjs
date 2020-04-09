@@ -3,9 +3,9 @@ import { useAmp } from "next/amp";
 import Layout from "../components/Layout";
 import Byline from "../components/Byline";
 
-// export const config = {
-//   amp: true,
-// };
+export const config = {
+  amp: true,
+};
 
 export default () => {
   // const isAmp = useAmp();
@@ -18,91 +18,91 @@ export default () => {
       <h1>The Cat (AMP-first Page)</h1>
       <Byline author="Dan Zajdband" />
       <p className="caption">Meowwwwwwww</p>
-      <img
+      <amp-img
         alt="Mountains"
         width="550"
         height="368"
         layout="responsive"
         src="https://media.giphy.com/media/O5AZJzYhCr1NS/giphy.gif"
-      ></img>
-      <img
+      ></amp-img>
+      <amp-img
         alt="Mountains"
         width="550"
         height="368"
         layout="responsive"
         src="https://media3.giphy.com/media/b2CD0Qrq2ulwY/giphy.gif?cid=ecf05e47c77f922b471d30b6c34d44d42d9eaadba4849611&rid=giphy.gif"
-      ></img>
-      <img
+      ></amp-img>
+      <amp-img
         alt="Mountains"
         width="550"
         height="368"
         layout="responsive"
         src="https://media2.giphy.com/media/10JHfJJAUtEBCE/200.webp?cid=ecf05e47ecc56021a61e4e23bf5e3b6eea8c9d4e9a36e655&rid=200.webp"
-      ></img>
-      <img
+      ></amp-img>
+      <amp-img
         class="giphy-gif-img"
         src="https://media1.giphy.com/media/2ikwIgNrmPZICNmRyX/giphy.webp?cid=ecf05e47ecc56021a61e4e23bf5e3b6eea8c9d4e9a36e655&amp;rid=giphy.webp"
         width="248"
         height="248"
         alt="pgdue GIF"
-      ></img>
-      <img
+      ></amp-img>
+      <amp-img
         alt="Mountains"
         width="550"
         height="368"
         layout="responsive"
         src="https://bstyle.vn/wp-content/uploads/2019/11/cach-tao-anh-gif-online-1.gif"
-      ></img>
-      <img
+      ></amp-img>
+      <amp-img
         alt="Mountains"
         width="550"
         height="368"
         layout="responsive"
         src="https://24hstore.vn/upload_images/images/2019/11/14/anh-gif-2-min.gif"
-      ></img>
-      <img
+      ></amp-img>
+      <amp-img
         alt="Mountains"
         width="550"
         height="368"
         layout="responsive"
         src="https://i.pinimg.com/originals/2a/cd/13/2acd1354899654648acfae90ea23fc7a.gif"
-      ></img>
-      <img
+      ></amp-img>
+      <amp-img
         alt="Mountains"
         width="550"
         height="368"
         layout="responsive"
         src="https://24hstore.vn/upload_images/images/2019/11/14/anh-gif-3-min.gif"
-      ></img>
+      ></amp-img>
 
-      <img
+      <amp-img
         alt="Mountains"
         width="550"
         height="368"
         layout="responsive"
-        src="https://i.pinimg.com/originals/4f/73/5c/4f735cf5cec0523b0a0edfc27dfb9254.gif"
-      ></img>
-      <img
+        src="https://i.pinamp-img.com/originals/4f/73/5c/4f735cf5cec0523b0a0edfc27dfb9254.gif"
+      ></amp-img>
+      <amp-img
         alt="Mountains"
         width="550"
         height="368"
         layout="responsive"
-        src="https://i.pinimg.com/originals/59/a9/bc/59a9bc5a33d47061de5223631e58b8c2.gif"
-      ></img>
-      <img
+        src="https://i.pinamp-img.com/originals/59/a9/bc/59a9bc5a33d47061de5223631e58b8c2.gif"
+      ></amp-img>
+      <amp-img
         alt="Mountains"
         width="550"
         height="368"
         layout="responsive"
         src="https://i.pinimg.com/originals/2a/cd/13/2acd1354899654648acfae90ea23fc7a.gif"
-      ></img>
-      <img
+      ></amp-img>
+      <amp-img
         alt="Mountains"
         width="550"
         height="368"
         layout="responsive"
         src="https://i.pinimg.com/originals/19/a9/37/19a937a3c5004c0133db46f7a1ef665f.gif"
-      ></img>
+      ></amp-img>
 
       <p>
         Cat ipsum dolor , eat grass, throw it back up but refuse to leave
